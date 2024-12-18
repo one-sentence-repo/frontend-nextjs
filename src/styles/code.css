@@ -1,0 +1,77 @@
+.ProseMirror {
+  code {
+    @apply break-all rounded-sm bg-zinc-800 px-1 py-px font-mono text-white caret-white shadow-lg dark:bg-zinc-600;
+
+    &::selection {
+      @apply bg-white/30;
+    }
+  }
+
+  pre {
+    font-family: 'JetBrainsMono', monospace;
+    @apply my-2 w-full rounded-md border-zinc-400 bg-neutral-700 p-2 text-white caret-white shadow-md sm:p-4 dark:border-zinc-600 dark:bg-var-dark;
+
+    *::selection {
+      @apply bg-white/20;
+    }
+
+    code {
+      background: none;
+      color: inherit;
+      font-size: 0.8rem;
+    }
+
+    /* Code styling */
+    .hljs-comment,
+    .hljs-quote {
+      color: #616161;
+    }
+
+    .hljs-variable,
+    .hljs-template-variable,
+    .hljs-attribute,
+    .hljs-tag,
+    .hljs-name,
+    .hljs-regexp,
+    .hljs-link,
+    .hljs-name,
+    .hljs-selector-id,
+    .hljs-selector-class {
+      color: #f98181;
+    }
+
+    .hljs-number,
+    .hljs-meta,
+    .hljs-built_in,
+    .hljs-builtin-name,
+    .hljs-literal,
+    .hljs-type,
+    .hljs-params {
+      color: #fbbc88;
+    }
+
+    .hljs-string,
+    .hljs-symbol,
+    .hljs-bullet {
+      color: #b9f18d;
+    }
+
+    .hljs-title,
+    .hljs-section {
+      color: #faf594;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+      color: #70cff8;
+    }
+
+    .hljs-emphasis {
+      font-style: italic;
+    }
+
+    .hljs-strong {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+DROP TRIGGER trigger_update_word_dictionary_and_user_words on public.post;

@@ -1,0 +1,35 @@
+@import '@/src/styles/code.css';
+@import '@/src/styles/font.css';
+@import '@/src/styles/lists.css';
+@import '@/src/styles/typography.css';
+@import '@/src/styles/block.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'goorm-sans';
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  .data-line {
+    @apply h-[2px] origin-left transition ease-in-out;
+  }
+  .status-line[data-status='closed'] {
+    @apply scale-x-0;
+  }
+  .data-slideDown {
+    @apply transition ease-in-out;
+  }
+  .status-slideDown[data-status='closed'] {
+    @apply scale-95 opacity-0;
+  }
+}
+

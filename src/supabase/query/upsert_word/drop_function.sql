@@ -1,0 +1,1 @@
+DROP FUNCTION IF EXISTS public.update_word_dictionary_and_user_words;

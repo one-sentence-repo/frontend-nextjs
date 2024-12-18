@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Navigate_fill" class="cls-1" d="M75,22.5c-29,0-52.5,23.51-52.5,52.5s23.5,52.5,52.5,52.5,52.5-23.51,52.5-52.5-23.51-52.5-52.5-52.5ZM79.5,106.5l-9-27-30-6,57-21-18,54Z"/>
+</svg>

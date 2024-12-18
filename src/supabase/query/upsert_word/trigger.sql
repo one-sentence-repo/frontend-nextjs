@@ -1,0 +1,4 @@
+CREATE TRIGGER trigger_update_word_dictionary_and_user_words
+AFTER INSERT ON post
+FOR EACH ROW
+EXECUTE FUNCTION update_word_dictionary_and_user_words();
