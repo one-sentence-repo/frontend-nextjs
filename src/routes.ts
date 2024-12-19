@@ -1,3 +1,5 @@
+import { isDevelop } from '@/src/utils/isDevelop'
+
 export const authRestrictedRoutes = [
   '/modal/signup',
   '/modal/signin',
@@ -14,6 +16,8 @@ export const protectedRoutes = [
   '/modal/delete_comment',
   '/modal/delete_post',
 ]
+
+export const baseUrl = isDevelop ? "http://localhost:8080" : "https://"
 
 export const routes = {
   home: '/',

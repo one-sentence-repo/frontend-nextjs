@@ -1,1 +1,0 @@
-DROP TRIGGER add_new_user on auth.users;

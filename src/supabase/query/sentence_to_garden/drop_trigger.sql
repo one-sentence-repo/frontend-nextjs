@@ -1,1 +1,0 @@
-DROP TRIGGER after_insert_on_post ON public.post;

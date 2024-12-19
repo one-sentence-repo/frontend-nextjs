@@ -7,19 +7,15 @@ export type TTodoColor =
   | 'red'
   | 'purple'
 
-export interface Todo {
+export interface TodoDetail {
   id: number
-  name: string
   createdAt: number
-  updatedAt: number
-  isSuccess: boolean
+  userId: number
   folderId: number
-  memo?: string
-}
-
-export interface TTodo {
-  pending: Todo[]
-  success: Todo[]
+  content: string
+  isCompleted: boolean
+  index: number
+  memo: string | null
 }
 
 export interface TodoFolder {

@@ -1,1 +1,0 @@
-DROP TRIGGER update_follower_followed_info_trigger ON public.follow;

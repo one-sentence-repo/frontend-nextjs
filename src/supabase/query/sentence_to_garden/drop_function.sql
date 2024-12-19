@@ -1,1 +1,0 @@
-DROP FUNCTION IF EXISTS public.insert_into_garden;
